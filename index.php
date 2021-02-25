@@ -38,9 +38,9 @@
     //   
     //}    
 
-    $n = 5;
+    $n = 31;
     
-    if ($n % 2 != 0) {
+    if ($n % 2 == 0) {
         echo "Par";
     }else{
         echo "Impar";
